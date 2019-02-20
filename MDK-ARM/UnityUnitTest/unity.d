@@ -1,0 +1,10 @@
+unityunittest\unity.o: ..\Unity\src\unity.c
+unityunittest\unity.o: ..\Unity\src\unity.h
+unityunittest\unity.o: ..\Unity\src\unity_internals.h
+unityunittest\unity.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\setjmp.h
+unityunittest\unity.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+unityunittest\unity.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+unityunittest\unity.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+unityunittest\unity.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+unityunittest\unity.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+unityunittest\unity.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

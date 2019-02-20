@@ -1,0 +1,28 @@
+--cpu Cortex-M0
+"unityunittest\startup_stm32f030x8.o"
+"unityunittest\main.o"
+"unityunittest\stm32f0xx_it.o"
+"unityunittest\stm32f0xx_hal_msp.o"
+"unityunittest\stm32f0xx_hal_tim.o"
+"unityunittest\stm32f0xx_hal_tim_ex.o"
+"unityunittest\stm32f0xx_hal_uart.o"
+"unityunittest\stm32f0xx_hal_uart_ex.o"
+"unityunittest\stm32f0xx_hal_rcc.o"
+"unityunittest\stm32f0xx_hal_rcc_ex.o"
+"unityunittest\stm32f0xx_hal.o"
+"unityunittest\stm32f0xx_hal_i2c.o"
+"unityunittest\stm32f0xx_hal_i2c_ex.o"
+"unityunittest\stm32f0xx_hal_gpio.o"
+"unityunittest\stm32f0xx_hal_dma.o"
+"unityunittest\stm32f0xx_hal_cortex.o"
+"unityunittest\stm32f0xx_hal_pwr.o"
+"unityunittest\stm32f0xx_hal_pwr_ex.o"
+"unityunittest\stm32f0xx_hal_flash.o"
+"unityunittest\stm32f0xx_hal_flash_ex.o"
+"unityunittest\system_stm32f0xx.o"
+"unityunittest\unity.o"
+"unityunittest\test.o"
+--library_type=microlib --strict --scatter "UnityUnitTest\UnityUnitTest.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "UnityUnitTest.map" -o UnityUnitTest\UnityUnitTest.axf
