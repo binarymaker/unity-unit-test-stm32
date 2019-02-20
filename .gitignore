@@ -1,6 +1,3 @@
-#library file 
-!**/MotorControl/**/*.lib
-
 #tool chain files
-artic-bldc/MDK-ARM/
-artic-bldc/TrueSTUDIO
+MDK-ARM/
+TrueSTUDIO/
